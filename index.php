@@ -41,12 +41,6 @@
         </div>
       </form>
       <a href="index.php" class="btn btn-primary btn-block">Ver tu ubicacion</a>
-      <pre>
-      <?php var_dump($_POST);
-      echo $inicio;
-      // print_r($datos);
-      ?>
-      </pre>
     </div>
   </main>
 
