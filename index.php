@@ -119,7 +119,6 @@
           });
           // mostrando todos los marcadores
           function jaja(resu) {
-            console.log(resu);
             for (var i = 0; i < resu.length; i++) {
               // mostrando los marcadores
               var marker = new google.maps.Marker({
@@ -144,8 +143,6 @@
               lat: parseFloat(dir[0].place_lat),
               lng: parseFloat(dir[0].place_long)
             };
-            console.log(acc);
-            console.log(actual);
             var map = new google.maps.Map(document.getElementById('map'), {
               zoom: 15,
               center: acc
@@ -162,7 +159,7 @@
               .then(json => jaja(json))
 
             function jaja(resu) {
-              console.log(resu);
+
               for (var i = 0; i < resu.length; i++) {
                 // mostrando los marcadores
                 var marker = new google.maps.Marker({
